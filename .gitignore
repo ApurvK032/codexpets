@@ -4,7 +4,8 @@ tools/
 *.7z
 *.rar
 
-# Local session notes
+# Local agent/session notes
+AGENTS.md
 AGENT_LOG.md
 
 # OS/editor noise
