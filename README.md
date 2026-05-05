@@ -4,6 +4,22 @@ Templates, notes, and starter assets for making custom Codex pet avatars.
 
 Codex pets are the small visual companions shown in the Codex app or extension pet overlay. A custom pet is a sprite-sheet avatar plus a small manifest file.
 
+## Preview
+
+This repo includes an original Spark demo pet so the expected animation format is visible without copying bundled Codex artwork.
+
+<p>
+  <img src="assets/preview/spark-running-right.gif" width="128" alt="Spark running animation preview">
+</p>
+
+Running-right frames:
+
+<img src="assets/preview/spark-running-right-frames.png" alt="Spark running-right animation frames">
+
+State sampler:
+
+<img src="assets/preview/spark-state-sampler.png" width="420" alt="Spark state sampler">
+
 ## What A Pet Is
 
 A pet changes the visual companion shown in Settings > Appearance > Pets. It does not change Codex's model, reasoning, or coding behavior.
@@ -47,7 +63,7 @@ The sprite sheet must be:
 
 See `templates/spritesheet-layout.md` for the animation row map.
 
-![Codex pet sprite sheet guide](art/spark/spritesheet-guide.png)
+<img src="art/spark/spritesheet-guide.png" width="520" alt="Codex pet sprite sheet guide">
 
 The guide image shows the required `8` by `9` sheet. Use it as a reference only; final pet sprite sheets should contain just the pet artwork on transparency.
 
@@ -107,6 +123,6 @@ art\spark\
   spritesheet-guide.png
 ```
 
-Open `spritesheet.png` in Pixelorama to draw the real pet art. Keep `spritesheet-guide.png` as a reference only; it has labels and grid lines baked into the image.
+`spritesheet.png` contains the original Spark demo animation sheet. Keep `spritesheet-guide.png` as a reference only; it has labels and grid lines baked into the image.
 
 Custom pet support was discovered from the local Codex extension behavior and may change as Codex updates.

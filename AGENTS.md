@@ -16,7 +16,8 @@ Plain Markdown docs plus pet manifest examples for now. Custom Codex pets are fo
 - `README.md`: beginner guide for real Codex pet structure.
 - `templates/pet.json`: manifest template for a custom pet.
 - `templates/spritesheet-layout.md`: required sprite sheet dimensions and animation rows.
-- `art/spark/`: current Spark pet draft with a blank required-size sprite sheet and guide.
+- `art/spark/`: current Spark pet draft with an original demo sprite sheet and guide.
+- `assets/preview/`: repo-owned README preview GIFs/frame strips generated from Spark.
 - `pets/`: design notes or draft pet assets before copying into `%USERPROFILE%\.codex\pets`.
 - `tools/`: local downloaded tooling, ignored by git.
 
@@ -30,7 +31,7 @@ Plain Markdown docs plus pet manifest examples for now. Custom Codex pets are fo
 - Custom pet support was observed in a local Codex extension build and may change as Codex updates.
 - Custom pet folder is `%USERPROFILE%\.codex\pets`.
 - Built-in pet sprite sheets were observed under `%USERPROFILE%\.vscode\extensions\openai.chatgpt-26.429.30905-win32-x64\webview\assets` as `codex`, `dewey`, `fireball`, `rocky`, `seedy`, `stacky`, `bsod`, and `null-signal` WebP files.
-- `art/spark/spritesheet.png` is a blank transparent `1536x1872` starter sheet.
+- `art/spark/spritesheet.png` is an original demo `1536x1872` Spark sprite sheet.
 - GitHub remote target: `https://github.com/ApurvK032/codexpets`.
 
 ## Workflow Expectations

@@ -10,4 +10,4 @@ To install Spark locally, create:
   spritesheet.png
 ```
 
-Use `art/spark/pet.json` and `art/spark/spritesheet.png` as the working files. Keep `art/spark/spritesheet-guide.png` as a visual reference only.
+Use `art/spark/pet.json` and `art/spark/spritesheet.png` as the working files. The current sprite sheet contains original demo frames, and `art/spark/spritesheet-guide.png` is only a visual reference.
