@@ -1,0 +1,14 @@
+# Local downloaded apps and archives
+tools/
+*.zip
+*.7z
+*.rar
+
+# Local session notes
+AGENT_LOG.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
