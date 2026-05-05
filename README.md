@@ -47,6 +47,33 @@ The sprite sheet must be:
 
 See `templates/spritesheet-layout.md` for the animation row map.
 
+![Codex pet sprite sheet guide](art/spark/spritesheet-guide.png)
+
+The guide image shows the required `8` by `9` sheet. Use it as a reference only; final pet sprite sheets should contain just the pet artwork on transparency.
+
+## Built-In Pet Reference
+
+The Codex extension currently includes these bundled pets:
+
+| Pet | Description |
+| --- | --- |
+| Codex | The original Codex companion. |
+| Dewey | A tidy duck for calm workspace days. |
+| Fireball | Hot path energy for fast iteration. |
+| Rocky | A steady rock when the diff gets large. |
+| Seedy | Small green shoots for new ideas. |
+| Stacky | A balanced stack for deep work. |
+| BSOD | A tiny blue-screen companion. |
+| Null Signal | Quiet signal from the void. |
+
+Their sprite sheets may be installed locally under:
+
+```text
+%USERPROFILE%\.vscode\extensions\openai.chatgpt-*\webview\assets
+```
+
+Those bundled images are useful references for frame spacing, scale, and animation timing. They are not copied into this repo.
+
 ## Try A Pet
 
 1. Create a folder under `%USERPROFILE%\.codex\pets`.

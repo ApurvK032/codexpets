@@ -29,6 +29,7 @@ Plain Markdown docs plus pet manifest examples for now. Custom Codex pets are fo
 ## Known Issues
 - Custom pet support was observed in a local Codex extension build and may change as Codex updates.
 - Custom pet folder is `%USERPROFILE%\.codex\pets`.
+- Built-in pet sprite sheets were observed under `%USERPROFILE%\.vscode\extensions\openai.chatgpt-26.429.30905-win32-x64\webview\assets` as `codex`, `dewey`, `fireball`, `rocky`, `seedy`, `stacky`, `bsod`, and `null-signal` WebP files.
 - `art/spark/spritesheet.png` is a blank transparent `1536x1872` starter sheet.
 - GitHub remote target: `https://github.com/ApurvK032/codexpets`.
 
